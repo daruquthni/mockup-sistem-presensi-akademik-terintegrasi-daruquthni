@@ -22,31 +22,32 @@
       margin-bottom: 40px;
     }
 
-    /* Foto profil */
+    /* Foto profil di tengah */
     .identity img {
       width: 200px;
       border-radius: 15px;
-      margin: 10px auto;      /* auto → tengah horizontal */
-      display: block;          /* agar bisa diatur posisinya */
+      margin: 10px auto;
+      display: block;
       box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     }
 
+    /* Daftar desain */
     ol {
-      list-style-type: decimal;
-      text-align: center;
-      padding-left: 40px;
+      list-style-position: inside;  /* agar nomor ikut sejajar ke tengah */
+      text-align: center;           /* menengahkan teks dan nomor */
+      padding-left: 0;              /* hapus indent bawaan */
     }
 
     li {
-      margin-bottom: 25px;
-      text-align: center;
+      margin-bottom: 30px;
+      font-weight: bold;
     }
 
-    /* Semua gambar mockup di tengah */
+    /* Gambar mockup di tengah */
     img.design {
       max-width: 90%;
       display: block;
-      margin: 10px auto;       /* ini membuat gambar ada di tengah */
+      margin: 10px auto;
       border-radius: 10px;
       box-shadow: 0 3px 8px rgba(0,0,0,0.15);
     }
